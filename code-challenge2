@@ -1,0 +1,46 @@
+<DOCTYPE Html>
+<Html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping List</title>
+        <style>
+            .list-container {
+                margin-top: 30px;
+            }
+            .list-item {
+                display: flex;
+                justify-items: auto; 
+                align-items: center;
+                padding: 20px;
+                border: 2px solid #fdd; 
+            }
+            .list-item-purchased {
+                text-decoration: line-through;
+                background-color: #add8e6;
+            }
+            .buttons button {
+                margin-right: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="ShopItems">
+            <h1>Shopping List</h1>
+            <form id="addshopitem">
+                <input type="text" id="itemInput" placeholder="Enter item name">
+                <button type="addItem">Add</button>
+            </form>
+            <div class="button">
+                <button id="clearList">Clear List</button>
+
+            </div>
+            <ul id="itemList">
+
+            </ul>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+
+</Html>
