@@ -40,7 +40,7 @@ Setup and Usage
 
 Clone this repository to your local machine.
 
-git clone <repository-url>
+git clone https://github.com/geekirui120/week2-code-challenge-2.git
 
 Open the index.html file in a web browser.
 
